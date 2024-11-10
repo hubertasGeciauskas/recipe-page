@@ -226,6 +226,7 @@ hr {
 @media (min-width: 769px) {
   .card {
     max-width: 736px;
+    max-height: 1956px;
   }
   .card img {
     display: block;
