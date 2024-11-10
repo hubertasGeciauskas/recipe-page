@@ -194,7 +194,7 @@ hr {
   border: none;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 768px) {
   body {
     padding: 48px 128px;
   }
@@ -223,7 +223,7 @@ hr {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .card {
     max-width: 736px;
     max-height: 1956px;
