@@ -10,41 +10,14 @@
   margin: 0;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-p {
-  text-wrap: pretty;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
-
-#root,
+W #root,
 #__next {
   isolation: isolate;
 }
 
+.main {
+  background-color: black;
+}
 body {
   font-family: "Outfit", sans-serif;
   background-color: base.$stone-100;
@@ -212,10 +185,10 @@ hr {
   background-color: base.$stone-150;
   border: none;
 }
-
-@media (min-width: 768px) {
+// Tablet
+@media (min-width: 376px) {
   body {
-    padding: 48px 128px;
+    padding: 128px 48px;
     .card {
       padding: 40px;
       display: flex;
@@ -242,8 +215,11 @@ hr {
     font-size: 2.5rem;
   }
 }
-
-@media (min-width: 1024px) {
+// Desktop
+@media (min-width: 769px) {
+  body {
+    padding: 128px 48px;
+  }
   .card {
     max-width: 736px;
     max-height: 1956px;
