@@ -155,6 +155,10 @@ body .card .content .nutrition .sr-only {
   border: 0;
 }
 
+.main {
+  min-height: 100vh;
+}
+
 .text-present-1 {
   font-family: "Young Serif", sans-serif;
   font-size: 2.25rem;
