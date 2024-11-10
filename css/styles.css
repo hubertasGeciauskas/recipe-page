@@ -43,11 +43,6 @@ h6 {
   isolation: isolate;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   font-family: "Outfit", sans-serif;
   background-color: #f3e5d7;
@@ -157,13 +152,6 @@ body .card .content .nutrition .sr-only {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
-}
-
-.main {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .text-present-1 {

@@ -44,10 +44,6 @@ h6 {
 #__next {
   isolation: isolate;
 }
-html,
-body {
-  height: 100%;
-}
 
 body {
   font-family: "Outfit", sans-serif;
@@ -179,13 +175,6 @@ body {
       }
     }
   }
-}
-
-.main {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .text-present-1 {
