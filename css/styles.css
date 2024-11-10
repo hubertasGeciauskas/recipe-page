@@ -54,6 +54,9 @@ body {
   align-items: center;
   font-size: 1rem;
 }
+body .main {
+  height: 100%;
+}
 body .card {
   padding: 0;
 }
