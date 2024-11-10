@@ -43,6 +43,11 @@ h6 {
   isolation: isolate;
 }
 
+html,
+.main {
+  height: 100%;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background-color: #f3e5d7;
@@ -53,9 +58,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-}
-body .main {
-  height: 100%;
 }
 body .card {
   padding: 0;
