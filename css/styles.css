@@ -178,7 +178,7 @@ hr {
     flex-direction: column;
     width: 100%;
     max-width: 616px;
-    max-height: 2100px;
+    max-height: 1844px;
     background-color: #ffffff;
     border-radius: 24px;
   }
@@ -198,19 +198,16 @@ hr {
   }
 }
 @media (min-width: 769px) {
-  body {
-    padding: 128px 48px;
-  }
   .card {
-    max-width: 736px;
-    max-height: 1956px;
+    max-width: 736px !important;
+    max-height: 1700px !important;
   }
   .card img {
-    display: block;
-    width: 100%;
-    max-width: 656px;
-    max-height: 300px;
-    height: 100%;
+    display: block !important;
+    width: 100% !important;
+    max-width: 656px !important;
+    max-height: 300px !important;
+    height: 100% !important;
   }
 }
 
